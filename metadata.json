@@ -1,0 +1,22 @@
+{
+  "name": "flypenguin-dockerized-confluence",
+  "version": "0.0.9",
+  "author": "Axel Bock <mr.axel.bock@gmail.com>",
+  "license": "MIT",
+  "summary": "Installs Atlassian's Confluence using the docker image 'cptactionhank/atlassian-confluence', with a few customization possibilities",
+  "source": "https://github.com/flypenguin/puppet-dockerized-confluence.git",
+  "tags": [
+    "atlassian",
+    "confluence"
+  ],
+  "dependencies": [
+    {
+      "name": "puppetlabs/stdlib",
+      "version_requirement": ">=3.0.0 <5.0.0"
+    },
+    {
+      "name": "flypenguin/mkdir",
+      "version_requirement": ">=1.0.0 <2.0.0"
+    }
+  ]
+}
